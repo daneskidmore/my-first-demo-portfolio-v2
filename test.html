@@ -1,0 +1,175 @@
+<!-- Yelp for Help -->
+      <div class='row clearfix'>
+        <figure class='col-md'>
+          <div class='card h-100' style='width: 20rem;'>
+            <img src='images/yelp.png' class='card-img-top h-50' alt='yelp image'>
+            <div class='card-body'>
+              <h5 class='card-title'>Yelp For Help</h5>
+              <button type='button' class='btn btn-outline-info' data-toggle='modal'
+                data-target='#yelpModal'>Preview</button>
+            </div>
+          </div>
+        </figure>
+        <!-- Work Schedule -->
+        <figure class='col-md'>
+          <div class='card h-100' style='width: 20rem;'>
+            <img src='images/worksched.png' class='card-img-top h-50' alt='workschedule image'>
+            <div class='card-body'>
+              <h5 class='card-title'>My Daily Scheduler</h5>
+              <button type='button' class='btn btn-outline-info' data-toggle='modal' data-target='#workSchedModal'>
+                Preview
+              </button>
+            </div>
+          </div>
+        </figure>
+      </div>
+      <!-- Random Password Generator -->
+      <div class='row clearfix'>
+        <figure class='col-md'>
+          <div class='card h-100' style='width: 20rem;'>
+            <img src='images/password.png' class='card-img-top h-50' alt='password image'>
+            <div class='card-body'>
+              <h5 class='card-title'>Random Password Generator</h5>
+              <button type='button' class='btn btn-outline-info' data-toggle='modal'
+                data-target='#passwordModal'>Preview</button>
+            </div>
+        </figure>
+        <!-- weather app -->
+        <figure class='col-md'>
+          <div class='card h-100' style='width: 20rem;'>
+            <img src='images/weather.png' class='card-img-top h-50' alt='weather app image'>
+            <div class='card-body'>
+              <h5 class='card-title'>Weather App</h5>
+              <button type='button' class='btn btn-outline-info' data-toggle='modal'
+                data-target='#weatherModal'>Preview</button>
+            </div>
+          </div>
+        </figure>
+      </div>
+  </main>
+
+  <!-- </div> -->
+
+
+  <!-- yelp modal -->
+  <div id='yelpModal' class='modal fade' role='dialog'>
+    <div class='modal-dialog modal-dialog-scrollable'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title'>Yelp For Help!</h5>
+          <button type='button' class='close' data-dismiss='modal'>&times;</button>
+        </div>
+        <div class='modal-body'>
+          <img class='sample' src='images/yelpSample.png' alt='sample of yelp page'>
+          Have you ever had your car broken into while you're out and about with friends? Have no fear! We
+          have
+          created a page where you can compare areas based on car break ins.
+          <hr>
+          Contribution Credits: <br>
+          Daniel Caudra: https://github.com/DCuadra85 <br>
+          Rebecca Eng: https://github.com/engrebecca
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-info' id='yelpDeploy'>Deployment</button>
+          <button type='button' class='btn btn-info' id='yelpRepo'>Repository</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- work schedule modal -->
+  <div class='modal fade' id='workSchedModal'>
+    <div class='modal-dialog modal-dialog-scrollable'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title'>My Daily Scheduler</h5>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div>
+        <div class='modal-body'>
+          <img class='sample' src='images/workschedsampler.png' alt='sample of work schedule page'>
+          The purpose of this project was to create a work day planner. The planner is used to make a schedule
+          between 9 am and 5 pm. The top of the screen displays the current date and time. Each time block is
+          color coded to indicate the past (gray), present (red), or future (green). When the user clicks the
+          timeblock they have the opprotunity to type in a daily task. When the button is pressed, the
+          information in the timeblock is saved to the local storage to allow the information to save in case
+          the browser is closed.
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-info' id='schedDeploy'>Deployment</button>
+          <button type='button' class='btn btn-info' id='schedRepo'>Repository</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- password modal -->
+  <div id='passwordModal' class='modal fade' role='dialog'>
+    <div class='modal-dialog modal-dialog-scrollable'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title'>Random Passowrd Generator</h5>
+          <button type='button' class='close' data-dismiss='modal'>&times;</button>
+        </div>
+        <div class='modal-body'>
+          <img class='sample' src='images/passwordSample.png' alt='sample of yelp page'>
+          The purpose of this project was to use JavaScript to generate a random password. Once the button is
+          pressed it prompts the user to chose a desired length of a password between 8 and 128 characters.
+          Next the user must confirm if they want upper case, lower case, numbers, and or special characters.
+          Once the prompts are completed the password will generate automatically on the screen. If the button
+          is pressed again, the user with be given the same prompt and a new password.
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-info' id='passwordDeploy'>Deployment</button>
+          <button type='button' class='btn btn-info' id='passwordRepo'>Repository</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- weather modal -->
+  <div id='weatherModal' class='modal fade' role='dialog'>
+    <div class='modal-dialog modal-dialog-scrollable'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title'>Weather App</h5>
+          <button type='button' class='close' data-dismiss='modal'>&times;</button>
+        </div>
+        <div class='modal-body'>
+          <img class='sample' src='images/weather.png' alt='sample of weather page'>
+          The purpose of this project was to create a weather application that tells the weather for a desired
+          location. The user is prompted to search for a city. When the search button is clicked, a new button appears
+          below the search bar with the desired city name. Once clicked, the city name, current date, temperature,
+          humidity, and wind speed are displayed along with a visual of the current weather condition. The forcast for
+          the next 5 days will also appear. Each search is saved to the side for quick access.
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-info' id='weatherDeploy'>Deployment</button>
+          <button type='button' class='btn btn-info' id='weatherRepo'>Repository</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--footer-->
+  <footer class='page-footer font-small fixed-bottom text-light'>
+    <div class='stickyfooter text-center' style='border-top: .5px dotted; background-image:transparent'>
+          <p class='footer-block'>© Copyright 2020 Jennifer Henry</p>
+    </div>
+  </footer>
+
+
+  <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'
+    integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n'
+    crossorigin='anonymous'></script>
+  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'
+    integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo'
+    crossorigin='anonymous'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'
+    integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6'
+    crossorigin='anonymous'></script>
+  <script src='portfolioScript.js'></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+</body>
+
+</html>

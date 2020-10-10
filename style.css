@@ -1,0 +1,73 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url("bground.jpeg");
+    height: 100%;
+    background-blend-mode: hard-light;
+}
+
+.btn{
+    border: double;
+}
+
+.card{
+    background-color: transparent;
+    border: block;
+    border-color: rgba(255, 255, 255, 0.788);
+    border: double;
+}
+
+
+
+.element {
+    @include clearfix;
+  }
+
+footer{
+    z-index: 10;
+}
+
+.img-circle{
+    border-radius: 50%;
+    
+}
+
+.logo{
+    height: 30px;
+    filter: invert(100%);
+}
+
+@mixin clearfix() {
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+
+  .navbar{
+    z-index: 10;
+}
+
+#portfolioContainer{
+    height: calc(100vh - 190px);
+    overflow: auto;
+}
+
+.productCard{
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
