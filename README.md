@@ -13,13 +13,13 @@ https://github.com/daneskidmore/my-first-demo-portfolio-v2
 
 <hr />
 
-## Technologies Used ##
-*HTML
-*CSS
-*JAVASCRIPT
-*BOOTSRAP
-*GITHUB
-*GITLAB
+## Technologies 
+* HTML
+* CSS
+* JAVASCRIPT
+* BOOTSRAP
+* GITHUB
+* GITLAB
 
 <hr />
 
